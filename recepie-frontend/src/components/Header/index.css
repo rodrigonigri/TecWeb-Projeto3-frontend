@@ -1,0 +1,16 @@
+.AppHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 10%;
+    width: 100%;
+    background-color:lightgray;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.LogoHeader{
+    width: 18rem;
+    height: auto;
+    margin: 0.2rem;
+
+}

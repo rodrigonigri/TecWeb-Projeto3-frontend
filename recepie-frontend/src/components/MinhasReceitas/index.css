@@ -1,0 +1,42 @@
+.MinhasReceitasContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.btn{
+    width: 30rem;
+    height: 10rem;
+    appearance: button;
+    background-color: rgb(197,90,17);
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: transparent 4px 4px 0 0, #000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2.8rem;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 2rem;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: cursive;
+}
+
+.MinhasReceitas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 99%;
+}
