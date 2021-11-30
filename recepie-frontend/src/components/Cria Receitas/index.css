@@ -26,3 +26,9 @@
     white-space: nowrap;
     font-family: cursive;
 }
+
+.Link2MinhasReceitas{
+    display: flex;
+    width: 20rem;
+    height: 6rem;
+}

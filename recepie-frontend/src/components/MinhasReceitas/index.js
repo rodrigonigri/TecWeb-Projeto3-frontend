@@ -16,7 +16,7 @@ export default function MinhasReceitas(props) {
 
     return (
     <div className="MinhasReceitasContainer">
-        <Link to="/CriaReceitas">
+        <Link className='Link2CriaReceitas' to="/CriaReceitas">
         <button className='btn'>Criar Nova Receita</button>
         </Link>
 
@@ -24,9 +24,8 @@ export default function MinhasReceitas(props) {
         <div className="MinhasReceitas">
         
         {receitas.map((receita) => (
-        <Link to={`/receita/${receita.id}`}>
-            <Receita key={`receita__${receita.id}`} title={receita.title} ingredients={receita.ingredients}/>
-        </Link>
+        
+        <Receita key={`receita__${receita.id}`} id={receita.id} title={receita.title} ingredients={receita.ingredients}/>
       ))}
       
 
