@@ -1,8 +1,10 @@
 .MinhasReceitasContainer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin-bottom: 10%;
+    width: 90%;
 }
 
 .btn{
@@ -37,6 +39,10 @@
 .MinhasReceitas{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     max-width: 99%;
+}
+
+.Link2CriaReceitas{
+    width: 20rem;
 }

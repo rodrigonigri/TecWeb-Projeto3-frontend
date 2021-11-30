@@ -6,7 +6,7 @@ export default function Header(props) {
     return (
     <div className="AppHeader">
         <Link to = "/">
-        <img className="LogoHeader" src='LOGO.png' />
+        <img className="LogoHeader" src='/LOGO.png' />
         </Link>
     </div>
     );
