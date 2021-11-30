@@ -1,6 +1,8 @@
 # TecWeb-Projeto3-frontend
 - [x] Fazer as componentes essenciais estáticas
-- [x] Fazer o get na API
-- [ ] fazer o post na API
-- [ ] fazer o delete na API
-- [ ] fazer o update na API
+- [x] Fazer o get
+- [x] fazer o post
+- [x] fazer o delete
+- [ ] fazer o update
+- [ ] mexer na estética
+- [ ] publicar no heroku
