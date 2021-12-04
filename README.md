@@ -3,6 +3,6 @@
 - [x] Fazer o get
 - [x] fazer o post
 - [x] fazer o delete
-- [ ] fazer o update
-- [ ] mexer na estética
+- [x] adicionar receita especial
+- [x] ajustar a estética
 - [ ] publicar no heroku
