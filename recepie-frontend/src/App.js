@@ -12,12 +12,14 @@ function App() {
     <div className="App">
        <Header className="AppHeader"/>
 
-       <Routes>
-        <Route path = "/" element = {<Home />} />
-        <Route path = "/MinhasReceitas" element = {<MinhasReceitas />} />
-        <Route path = "/CriaReceitas" element = {<CriaReceitas />} />
-        <Route path = "/receita/:receita_id" element = {<ReceitaCompleta />} />
-      </Routes>
+       <div className="AppBody">
+        <Routes>
+          <Route path = "/" element = {<Home />} />
+          <Route path = "/MinhasReceitas" element = {<MinhasReceitas />} />
+          <Route path = "/CriaReceitas" element = {<CriaReceitas />} />
+          <Route path = "/receita/:receita_id" element = {<ReceitaCompleta />} />
+        </Routes>
+      </div>
 
       <Footer className="AppFooter"/>
     </div>

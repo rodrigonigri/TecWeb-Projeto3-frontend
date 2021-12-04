@@ -16,10 +16,25 @@ export default function ReceitaCompleta(props) {
 
   return (
       <div>
-          <p>Nome da Receita: {receitas.title}</p>
-          <p>Ingredientes: {receitas.ingredients}</p>
-          <p> Modo de preparo: {receitas.preparo}</p>
+
+        <div class="content-main">
+            <div class="content-box">
+                <h2 className="Nome">Nome da Receita: {receitas.title}</h2>
+                <p className="Nome" id="ingr"> Ingredientes:</p>
+                {receitas.ingredients ? receitas.ingredients.slice(1).split("\n-").map((receita)=> (
+                    <li className="Ingredientes">
+                        {receita}
+                    </li>
+                )) : null}
+                <p className="prep">Modo de Preparo: </p>
+                <p className="Preparo">{receitas.preparo}</p>
+                <p className="espaco"> ... </p>
+            </div>
+        </div>
+
       </div>
+
+      
       
   );
 }

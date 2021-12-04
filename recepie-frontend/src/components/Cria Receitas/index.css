@@ -25,10 +25,77 @@
     vertical-align: middle;
     white-space: nowrap;
     font-family: cursive;
+    margin-bottom: 3rem;
 }
+
+.receitaExtra{
+    width: 18rem;
+    height: 5rem;
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: transparent 4px 4px 0 0, rgb(197,90,17) 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0.5rem;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: cursive;
+    margin-bottom: 3rem;
+}
+
 
 .Link2MinhasReceitas{
     display: flex;
     width: 20rem;
     height: 6rem;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CriaTitulo{
+    width: 40rem;
+    height: 2rem;
+    margin: 2rem;
+    font-size: 1rem;
+    font-family: cursive;
+
+}
+
+.CriaIngredientes{
+    width: 40rem;
+    height: 8rem;
+    margin: 2rem;
+    font-size: 1rem;
+    font-family: cursive;
+
+}
+
+.CriaPreparo{
+    width: 40rem;
+    height: 8rem;
+    margin: 2rem;
+    font-size: 1rem;
+    font-family: cursive;
+
 }

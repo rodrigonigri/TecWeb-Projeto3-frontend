@@ -10,6 +10,8 @@ export default function Home(props) {
           Minhas Receitas
         </button>
       </Link>
+
+      <p className="espacoHome"> ... </p>
       
       </div>
   );

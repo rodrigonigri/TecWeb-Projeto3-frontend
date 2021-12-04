@@ -15,14 +15,12 @@ export default function Receita(props) {
     return (
     <div className="Receita">
         <div className='ReceitaHeader'>
-        <button className="btn2" id='edit'>&#128221;</button>
         <button onClick={chamaDelete} className="btn2" id='delete'>&#10060;</button>
         </div>
 
         <Link to={`/receita/${props.id}`}>
         <div className="ReceitaContent">
-        <p className="Titulo">Título: {props.title}</p>
-        <p className="Ingredientes"> Ingredientes: {props.ingredients}</p>
+        <p className="Titulo">Receita: {props.title}</p>
         </div>
         </Link>
 
