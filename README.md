@@ -5,4 +5,8 @@
 - [x] fazer o delete
 - [x] adicionar receita especial
 - [x] ajustar a estética
-- [ ] publicar no heroku
+- [x] publicar no heroku
+
+URL do site:
+- frontend:
+https://mysterious-sands-33451.herokuapp.com/
